@@ -1,11 +1,95 @@
-<mxfile host="app.diagrams.net" modified="2020-09-09T17:41:37.666Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.135 Safari/537.36 OPR/70.0.3728.154" etag="jIntmgdeiLEVdeqmY6Jw" version="13.6.9" type="github">
+<mxfile host="app.diagrams.net" modified="2020-09-09T22:27:15.230Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.135 Safari/537.36 OPR/70.0.3728.154" etag="eE9LdhF6AG7LgxwNjLD-" version="13.6.9" type="github">
   <diagram id="biWBrqLmoQavXLtHWGHe" name="Page-1">
-    <mxGraphModel dx="906" dy="605" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2265" dy="1513" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="7qzMEofhVh9Ta85jU8DU-1" value="&lt;ol style=&quot;margin: 24px 0px 0px 32px ; padding: 0px ; border: 0px ; outline: 0px ; vertical-align: baseline ; background: transparent ; list-style-type: none ; list-style-position: inside ; color: rgb(58 , 58 , 58) ; font-family: &amp;#34;aktiv grotesk&amp;#34; , &amp;#34;helvetica neue&amp;#34; , &amp;#34;helvetica&amp;#34; , &amp;#34;arial&amp;#34; , sans-serif&quot;&gt;&lt;li style=&quot;margin: 12px 0px 0px ; padding: 0px ; border: 0px ; outline: 0px ; vertical-align: baseline ; background: transparent ; position: relative&quot;&gt;&lt;p style=&quot;margin: 0px ; padding: 0px ; border: 0px ; outline: 0px ; vertical-align: baseline ; background: transparent&quot;&gt;The application must be an HTML, CSS, and JavaScript frontend with a Rails API backend. All interactions between the client and the server must be handled asynchronously (AJAX) and use JSON as the communication format.&lt;/p&gt;&lt;/li&gt;&lt;li style=&quot;margin: 12px 0px 0px ; padding: 0px ; border: 0px ; outline: 0px ; vertical-align: baseline ; background: transparent ; position: relative&quot;&gt;&lt;p style=&quot;margin: 0px ; padding: 0px ; border: 0px ; outline: 0px ; vertical-align: baseline ; background: transparent&quot;&gt;The JavaScript application must use Object Oriented JavaScript (classes) to encapsulate related data and behavior.&lt;/p&gt;&lt;/li&gt;&lt;li style=&quot;margin: 12px 0px 0px ; padding: 0px ; border: 0px ; outline: 0px ; vertical-align: baseline ; background: transparent ; position: relative&quot;&gt;&lt;p style=&quot;margin: 0px ; padding: 0px ; border: 0px ; outline: 0px ; vertical-align: baseline ; background: transparent&quot;&gt;The domain model served by the Rails backend must include a resource with at least one has-many relationship. For example, if you were building an Instagram clone, you might display a list of photos with associated comments.&lt;/p&gt;&lt;/li&gt;&lt;li style=&quot;margin: 12px 0px 0px ; padding: 0px ; border: 0px ; outline: 0px ; vertical-align: baseline ; background: transparent ; position: relative&quot;&gt;&lt;p style=&quot;margin: 0px ; padding: 0px ; border: 0px ; outline: 0px ; vertical-align: baseline ; background: transparent&quot;&gt;The backend and frontend must collaborate to demonstrate Client-Server Communication. Your application should have at least 3 AJAX calls, covering at least 2 of Create, Read, Update, and Delete (CRUD). Your client-side JavaScript code must use&amp;nbsp;&lt;code style=&quot;margin: 0px ; padding: 0px 8px 4px ; border: 0px ; outline: 0px ; vertical-align: baseline ; background: rgb(239 , 239 , 239) ; border-radius: 4px ; line-height: 1.5 ; position: relative ; top: -1px&quot;&gt;fetch&lt;/code&gt;&amp;nbsp;with the appropriate HTTP verb, and your Rails API should use RESTful conventions.&lt;/p&gt;&lt;/li&gt;&lt;/ol&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="20" y="10" width="570" height="260" as="geometry" />
+        </mxCell>
+        <mxCell id="7qzMEofhVh9Ta85jU8DU-2" value="&lt;ol style=&quot;margin: 24px 0px 0px 32px ; padding: 0px ; border: 0px ; outline: 0px ; vertical-align: baseline ; background: transparent ; list-style-type: none ; list-style-position: inside ; color: rgb(58 , 58 , 58) ; font-family: &amp;#34;aktiv grotesk&amp;#34; , &amp;#34;helvetica neue&amp;#34; , &amp;#34;helvetica&amp;#34; , &amp;#34;arial&amp;#34; , sans-serif&quot;&gt;&lt;li style=&quot;margin: 12px 0px 0px ; padding: 0px ; border: 0px ; outline: 0px ; vertical-align: baseline ; background: transparent ; position: relative ; font-size: 11px&quot;&gt;&lt;p&gt;&lt;ol class=&quot;linenums&quot; style=&quot;margin: 0px 0px 0px 32px ; padding: 0px ; border-width: 0px 0px 0px 1px ; border-left-style: solid ; border-left-color: rgb(196 , 196 , 196) ; outline: 0px ; vertical-align: baseline ; background: rgb(248 , 248 , 248) ; list-style-type: none ; list-style-position: inside ; font-family: monospace&quot;&gt;&lt;li class=&quot;L0&quot; style=&quot;margin: 0px ; padding: 0px 0px 0px 16px ; border: 0px ; outline: 0px ; vertical-align: baseline ; background: transparent ; position: relative&quot;&gt;javascript-project/&lt;/li&gt;&lt;/ol&gt;&lt;ol class=&quot;linenums&quot; style=&quot;margin: 0px 0px 0px 32px ; padding: 0px ; border-width: 0px 0px 0px 1px ; border-left-style: solid ; border-left-color: rgb(196 , 196 , 196) ; outline: 0px ; vertical-align: baseline ; background: rgb(248 , 248 , 248) ; list-style-type: none ; list-style-position: inside ; font-family: monospace&quot;&gt;&lt;li class=&quot;L1&quot; style=&quot;margin: 0px ; padding: 0px 0px 0px 16px ; border: 0px ; outline: 0px ; vertical-align: baseline ; background: transparent ; position: relative&quot;&gt;  backend/&lt;/li&gt;&lt;/ol&gt;&lt;ol class=&quot;linenums&quot; style=&quot;margin: 0px 0px 0px 32px ; padding: 0px ; border-width: 0px 0px 0px 1px ; border-left-style: solid ; border-left-color: rgb(196 , 196 , 196) ; outline: 0px ; vertical-align: baseline ; background: rgb(248 , 248 , 248) ; list-style-type: none ; list-style-position: inside ; font-family: monospace&quot;&gt;&lt;li class=&quot;L2&quot; style=&quot;margin: 0px ; padding: 0px 0px 0px 16px ; border: 0px ; outline: 0px ; vertical-align: baseline ; background: transparent ; position: relative&quot;&gt;    app/&lt;/li&gt;&lt;/ol&gt;&lt;ol class=&quot;linenums&quot; style=&quot;margin: 0px 0px 0px 32px ; padding: 0px ; border-width: 0px 0px 0px 1px ; border-left-style: solid ; border-left-color: rgb(196 , 196 , 196) ; outline: 0px ; vertical-align: baseline ; background: rgb(248 , 248 , 248) ; list-style-type: none ; list-style-position: inside ; font-family: monospace&quot;&gt;&lt;li class=&quot;L3&quot; style=&quot;margin: 0px ; padding: 0px 0px 0px 16px ; border: 0px ; outline: 0px ; vertical-align: baseline ; background: transparent ; position: relative&quot;&gt;    (...other rails files and folders)&lt;/li&gt;&lt;/ol&gt;&lt;ol class=&quot;linenums&quot; style=&quot;margin: 0px 0px 0px 32px ; padding: 0px ; border-width: 0px 0px 0px 1px ; border-left-style: solid ; border-left-color: rgb(196 , 196 , 196) ; outline: 0px ; vertical-align: baseline ; background: rgb(248 , 248 , 248) ; list-style-type: none ; list-style-position: inside ; font-family: monospace&quot;&gt;&lt;li class=&quot;L4&quot; style=&quot;margin: 0px ; padding: 0px 0px 0px 16px ; border: 0px ; outline: 0px ; vertical-align: baseline ; background: transparent ; position: relative&quot;&gt;  frontend/&lt;/li&gt;&lt;/ol&gt;&lt;ol class=&quot;linenums&quot; style=&quot;margin: 0px 0px 0px 32px ; padding: 0px ; border-width: 0px 0px 0px 1px ; border-left-style: solid ; border-left-color: rgb(196 , 196 , 196) ; outline: 0px ; vertical-align: baseline ; background: rgb(248 , 248 , 248) ; list-style-type: none ; list-style-position: inside ; font-family: monospace&quot;&gt;&lt;li class=&quot;L5&quot; style=&quot;margin: 0px ; padding: 0px 0px 0px 16px ; border: 0px ; outline: 0px ; vertical-align: baseline ; background: transparent ; position: relative&quot;&gt;    index.html&lt;/li&gt;&lt;/ol&gt;&lt;ol class=&quot;linenums&quot; style=&quot;margin: 0px 0px 0px 32px ; padding: 0px ; border-width: 0px 0px 0px 1px ; border-left-style: solid ; border-left-color: rgb(196 , 196 , 196) ; outline: 0px ; vertical-align: baseline ; background: rgb(248 , 248 , 248) ; list-style-type: none ; list-style-position: inside ; font-family: monospace&quot;&gt;&lt;li class=&quot;L6&quot; style=&quot;margin: 0px ; padding: 0px 0px 0px 16px ; border: 0px ; outline: 0px ; vertical-align: baseline ; background: transparent ; position: relative&quot;&gt;    style.css&lt;/li&gt;&lt;/ol&gt;&lt;ol class=&quot;linenums&quot; style=&quot;margin: 0px 0px 0px 32px ; padding: 0px ; border-width: 0px 0px 0px 1px ; border-left-style: solid ; border-left-color: rgb(196 , 196 , 196) ; outline: 0px ; vertical-align: baseline ; background: rgb(248 , 248 , 248) ; list-style-type: none ; list-style-position: inside ; font-family: monospace&quot;&gt;&lt;li class=&quot;L7&quot; style=&quot;margin: 0px ; padding: 0px 0px 0px 16px ; border: 0px ; outline: 0px ; vertical-align: baseline ; background: transparent ; position: relative&quot;&gt;    index.js&lt;/li&gt;&lt;/ol&gt;&lt;ol class=&quot;linenums&quot; style=&quot;margin: 0px 0px 0px 32px ; padding: 0px ; border-width: 0px 0px 0px 1px ; border-left-style: solid ; border-left-color: rgb(196 , 196 , 196) ; outline: 0px ; vertical-align: baseline ; background: rgb(248 , 248 , 248) ; list-style-type: none ; list-style-position: inside ; font-family: monospace&quot;&gt;&lt;li class=&quot;L8&quot; style=&quot;margin: 0px ; padding: 0px 0px 0px 16px ; border: 0px ; outline: 0px ; vertical-align: baseline ; background: transparent ; position: relative&quot;&gt;  README.md&lt;/li&gt;&lt;/ol&gt;&lt;/p&gt;&lt;/li&gt;&lt;/ol&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="550" y="40" width="370" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="7qzMEofhVh9Ta85jU8DU-3" value="&lt;u style=&quot;background-color: rgb(255 , 217 , 102)&quot;&gt;Incident Report&lt;/u&gt;&lt;br&gt;gps location&lt;br&gt;text data&lt;br&gt;image attachment&lt;br&gt;file attachment" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFD966;" vertex="1" parent="1">
+          <mxGeometry x="410" y="460" width="210" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="7qzMEofhVh9Ta85jU8DU-9" value="" style="curved=1;endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="7qzMEofhVh9Ta85jU8DU-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="840" y="540" as="sourcePoint" />
+            <mxPoint x="970" y="540" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="745" y="510" />
+              <mxPoint x="810" y="500" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7qzMEofhVh9Ta85jU8DU-10" value="dumb dumb internet smartphone user with iphone 6 lol so old" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="190" y="480" width="40" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="7qzMEofhVh9Ta85jU8DU-11" value="" style="triangle;whiteSpace=wrap;html=1;rotation=30;fillColor=#FFD966;" vertex="1" parent="1">
+          <mxGeometry x="150" y="470" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="7qzMEofhVh9Ta85jU8DU-12" value="" style="shape=trapezoid;perimeter=trapezoidPerimeter;whiteSpace=wrap;html=1;fixedSize=1;rotation=-45;" vertex="1" parent="1">
+          <mxGeometry x="205" y="520" width="70" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="7qzMEofhVh9Ta85jU8DU-14" value="" style="endArrow=classic;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="7qzMEofhVh9Ta85jU8DU-18">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="420" y="390" as="sourcePoint" />
+            <mxPoint x="240" y="530" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7qzMEofhVh9Ta85jU8DU-16" value="" style="endArrow=classic;html=1;entryX=0;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="7qzMEofhVh9Ta85jU8DU-22">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="240" y="540" as="sourcePoint" />
+            <mxPoint x="340" y="590" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7qzMEofhVh9Ta85jU8DU-20" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="460" y="270" width="230" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="7qzMEofhVh9Ta85jU8DU-19" value="" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;fillColor=#FFD966;" vertex="1" parent="7qzMEofhVh9Ta85jU8DU-20">
+          <mxGeometry width="230.00000000000003" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="7qzMEofhVh9Ta85jU8DU-18" value="&lt;div style=&quot;text-align: center&quot;&gt;&lt;/div&gt;&lt;div style=&quot;text-align: center&quot;&gt;Output&lt;/div&gt;&lt;ul&gt;&lt;li&gt;MAP&lt;/li&gt;&lt;li&gt;archive&lt;br&gt; &lt;/li&gt;&lt;ul&gt;&lt;li&gt;&lt;span&gt;(sortable, searchable, possible advanced analysis feature for people with $$$$$&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/ul&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="7qzMEofhVh9Ta85jU8DU-20">
+          <mxGeometry y="20.83" width="200" height="109.17" as="geometry" />
+        </mxCell>
+        <mxCell id="7qzMEofhVh9Ta85jU8DU-21" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="410" y="660" width="230" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="7qzMEofhVh9Ta85jU8DU-22" value="" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;fillColor=#FFD966;" vertex="1" parent="7qzMEofhVh9Ta85jU8DU-21">
+          <mxGeometry width="230.00000000000003" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="7qzMEofhVh9Ta85jU8DU-23" value="&lt;div style=&quot;text-align: center&quot;&gt;&lt;/div&gt;&lt;div style=&quot;text-align: center&quot;&gt;Input&lt;/div&gt;&lt;ul&gt;&lt;li&gt;Comments&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="7qzMEofhVh9Ta85jU8DU-21">
+          <mxGeometry y="12.5" width="223.03030303030306" height="65.00000000000001" as="geometry" />
+        </mxCell>
+        <mxCell id="7qzMEofhVh9Ta85jU8DU-24" value="" style="endArrow=classic;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="7qzMEofhVh9Ta85jU8DU-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="270" y="530" as="sourcePoint" />
+            <mxPoint x="500" y="590" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7qzMEofhVh9Ta85jU8DU-26" value="&lt;font color=&quot;#ffffff&quot;&gt;calculate position of gps and put on map, do something else and then backflip then return 10 reports that have the keyword &#39;gay&#39; in them&amp;nbsp;&lt;/font&gt;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;fillColor=#4C1F78;size=0.2413793103448276;" vertex="1" parent="1">
+          <mxGeometry x="970" y="450" width="290" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="7qzMEofhVh9Ta85jU8DU-27" value="" style="curved=1;endArrow=classic;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="7qzMEofhVh9Ta85jU8DU-26" target="7qzMEofhVh9Ta85jU8DU-19">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="760" y="590" as="sourcePoint" />
+            <mxPoint x="810" y="540" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1000" y="310" />
+              <mxPoint x="850" y="250" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7qzMEofhVh9Ta85jU8DU-28" value="" style="curved=1;endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="7qzMEofhVh9Ta85jU8DU-22">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="770" y="650" as="sourcePoint" />
+            <mxPoint x="990" y="880" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="710" y="900" />
+              <mxPoint x="820" y="740" />
+            </Array>
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
